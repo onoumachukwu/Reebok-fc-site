@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    
+
+    <style>
+
+        header {
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+             padding: 0 1rem;
+             background-image: linear-gradient(to right, rgb(91, 12, 12) , rgb(107, 107, 29));
+             margin-top: 20px;
+             padding-bottom: 20px;
+
+        }
+
+        .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+  }
+
+
+
+  .header-image {
+    
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-left: 60px;
+    appearance: none;
+    align-content: center;
+    
+  }
+
+  .scrolling-text {
+    color: #fff;
+    font-size: 20px;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    white-space: nowrap;
+    align-content: center;
+    margin-bottom: 10px;
+    animation: scroll-left 30s linear infinite;
+    
+  }
+  
+  /* Add scrolling animation */
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+        main {
+            
+    padding-top: 10px;
+    padding-bottom: 10px;
+     height: 1020px;
+    
+            
+            
+        }
+
+        
+
+        main h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            
+        }
+
+        main p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+
+    .news-writeup {
+  max-width: 800px;   /* keeps text readable */
+  margin: 40px auto;  /* centers the content */
+  padding: 20px;
+  line-height: 1.6;   /* improves readability */
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.news-writeup h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: rgb(91, 12, 12);
+  text-transform: uppercase;
+}
+
+.news-writeup h2 {
+  font-size: 1.4rem;
+  margin-top: 30px;
+  color: rgb(107, 107, 29);
+}
+
+.news-writeup h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #555;
+}
+
+.news-writeup p {
+  margin: 15px 0;
+}
+
+
+        
+
+        
+        
+footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    padding-bottom: 30px;
+   
+    background-image: linear-gradient(to right, rgb(91, 12, 12) , rgb(107, 107, 29));
+
+    
+  }
+
+  .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 500px;         /* fixed height for all images */
+  object-fit: cover;     /* crop/zoom to fill the box */
+  display: block;
+}
+
+
+.card p {
+  padding: 10px;
+  font-size: 18px;
+  color: #0f0808;
+  font-weight: bolder;
+}
+
+/* Hover Effects */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+
+ 
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+
+        <div class="header-content">
+            <img src="images/reebok-logo.png" alt="Logo for reebok fc" class="header-image">
+        
+
+        <div class="scrolling-text">THIS IS THE OFFICIAL PAGE FOR REEBOK FOOTBALL CLUB, WELCOME TO WHERE FAMILY IS NUMBER ONE!. TO GET REEBOK FC FORM, PLEASE CONTACT THE MANAGEMENT DIRECTLY</div>
+
+        </div>
+
+        
+
+
+    </header>
+
+
+
+    
+
+
+
+    <main>
+
+        
+     <section class="gallery">
+  <div class="card">
+    <img src="images/image1.jpg" alt="Image 1">
+    <p>REEBOK FC A HOME OF TALENTS
+
+    </p>
+  </div>
+
+  <div class="card">
+    <img src="images/image2.jpg" alt="Image 2">
+    <p> EFCC VS REEBOK AT THE STADUIM OF LIGHT</p>
+  </div>
+
+  <div class="card">
+    <img src="images/image3.jpg" alt="Image 3">
+    <p>A SMILE FROM OUR NUMBER 1 GOAL KEEPER</p>
+  </div>
+
+  <div class="card">
+    <img src="images/image4.jpg" alt="Image 4">
+    <p>COME WITNESS A GAME OF INTENSE PASSION AND FUN</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="news-writeup">
+  <h1>REEBOK FC SET TO PLAY IN THE UPCOMING EVENT OF THE ONE BIG FAMILY COMPETITION</h1>
+
+  <p>
+    Reebok FC is set to make waves in the upcoming One Big Family Competition, 
+    and the atmosphere within the camp is electric. Known for their passion, 
+    resilience, and attacking flair, the team has been putting in countless hours 
+    on the training ground to ensure they represent their fans and community with pride.
+  </p>
+
+  <h2>Intensive Preparation</h2>
+  <p>
+    In the weeks leading up to the competition, Reebok FC has been focused on sharpening every aspect of their game. 
+    From tactical drills to fitness conditioning, the players are leaving no stone unturned. 
+    The coaching staff has placed special emphasis on team chemistry, ensuring that every player 
+    understands their role and works seamlessly within the squad.
+  </p>
+
+  <h3>Unity and Determination</h3>
+  <p>
+    As the club’s slogan goes, <em>“A place where every problem has a solution,”</em> 
+    the players have embraced that mindset, knowing that every challenge on the pitch 
+    can be overcome with teamwork and determination. Training sessions have been marked by 
+    high energy, discipline, and a winning spirit that reflects the hunger of a club ready to make history.
+  </p>
+</div>
+
+       
+
+
+
+
+    </main>
+
+    <footer class="footer">
+            <p>© 2025 Reebok FC | All Rights Reserved</p>
+            <div class="social-icons">
+    <a href="https://facebook.com/reebokfc" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com/reebokfc" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/reebokfc" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://youtube.com/reebokfc" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+    
+</body>
+</html>
